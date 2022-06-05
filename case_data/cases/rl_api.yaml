@@ -1,0 +1,82 @@
+﻿-
+  name: 微信授权登录
+
+  request:
+    method: POST
+    url: /wechat/login
+    params:
+      code: 666666
+
+  assert:
+    code: 200
+    time: 10ms
+    data: 成功
+
+-
+  name: 获取列表
+
+  request:
+    method: GET
+    url: /banner/list
+    params: None
+    head:
+      Content-Type: application/x-www-form-urlencoded
+      Authorization: token值
+
+  assert:
+    code: 200
+    time: 10ms
+    data: 成功
+
+-
+  name: 忘记支付密码
+
+  request:
+    method: POST
+    url: /sms/forget/deal/pwd
+    params:
+      sign: 20B7C353CF7283490EBE89BF09A93BBF
+    head:
+      Content-Type: application/x-www-form-urlencoded
+      Authorization: token值
+
+  assert:
+    code: 200
+    time: 10ms
+    data: 成功
+
+-
+  name: 注销账号
+
+  request:
+    method: POST
+    url: /sms/logout/check
+    params:
+      sign: 20B7C353CF7283490EBE89BF09A93BBF
+      code: 888888
+    head:
+      Content-Type: application/x-www-form-urlencoded
+      Authorization: token值
+
+  assert:
+    code: 200
+    time: 10ms
+    data: 成功
+
+-
+  name: 获取活动接口列表
+
+  request:
+    method: GET
+    url: /activity/list
+    params:
+      current: 1
+      pageSize: 10
+      latitude: 30.61107
+      longitude: 114.255445
+      sign: 20B7C353CF7283490EBE89BF09A93BBF
+
+  assert:
+    code: 400
+    time: 10ms
+    data: 成功

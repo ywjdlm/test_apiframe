@@ -1,0 +1,8 @@
+[INFO 2022-03-31 10:17:14]name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 10:17:14]name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 10:18:15]name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 10:18:15]name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 10:18:51]name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 10:18:51]name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 14:29:24]name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-03-31 14:29:24]name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}

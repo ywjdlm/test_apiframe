@@ -1,0 +1,260 @@
+[INFO 2022-05-25 15:54:51]name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 15:54:51]name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 15:54:51]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 15:54:51]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 15:54:51]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 15:54:51]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 15:54:51]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 15:54:51]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:54:51]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:54:51]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:54:51]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 15:54:51]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 15:55:13]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 15:55:13]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 15:55:13]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 15:55:13]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 15:55:13]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 15:55:13]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 15:55:13]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 15:55:13]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:55:13]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:55:13]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 15:55:13]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 15:55:13]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:13:12]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:13:12]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:13:12]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:13:12]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:13:12]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:13:12]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:13:12]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:13:12]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:13:12]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:13:12]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:13:12]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:13:12]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:14:37]name :获取token  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQzMDY4OTAyMDNFMTIsImV4cCI6MTY1NDA3MTIzMCwidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.VwsJsJX4WW2bAkDvMpqmWG1DpyXOXKO2dNiW269iS6I","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:14:37]name :获取token-错误的参数名  ,  reponse :{"timestamp":1653466430842,"status":400,"error":"Bad Request","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:14:37]name :获取token-错误的密码  ,  reponse :{"code":"2002","data":{},"msg":"密码输入错误"}
+
+[INFO 2022-05-25 16:14:38]name :获取token-错误的请求方式  ,  reponse :{"timestamp":1653466431179,"status":405,"error":"Method Not Allowed","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:14:38]name :获取token-不带请求头  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQzMTMxMzE3NDZFMTIsImV4cCI6MTY1NDA3MTIzMSwidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.fS54w4UkTMhwimY4d83_VzWoXROerUOFk1TWImqRVHc","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:14:38]name :获取time  ,  reponse :<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>ias/1.7.3_1.17.3</center>
+</body>
+</html>
+
+[INFO 2022-05-25 16:14:38]name :淘宝获取时间  ,  reponse :{"api":"mtop.common.getTimestamp","v":"*","ret":["SUCCESS::接口调用成功"],"data":{"t":"1653466431721"}}
+[INFO 2022-05-25 16:14:38]name :苏宁获取时间  ,  reponse :{"sysTime2":"2022-05-25 16:13:51","sysTime1":"20220525161351"}
+[INFO 2022-05-25 16:14:47]name :获取token  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQ0MDM3NTc1OEUxMiwiZXhwIjoxNjU0MDcxMjQwLCJ1c2VybmFtZSI6IjE1NzE3ODIzNjAxIn0.Z8BPCaG7t1bT9vBj1mHnSDLhGzsG_Gq02KiLdD2ywio","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:14:47]name :获取token-错误的参数名  ,  reponse :{"timestamp":1653466440513,"status":400,"error":"Bad Request","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:14:47]name :获取token-错误的密码  ,  reponse :{"code":"2002","data":{},"msg":"密码输入错误"}
+
+[INFO 2022-05-25 16:14:47]name :获取token-错误的请求方式  ,  reponse :{"timestamp":1653466440785,"status":405,"error":"Method Not Allowed","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:14:47]name :获取token-不带请求头  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQ0MDkyNDgyNDVFMTIsImV4cCI6MTY1NDA3MTI0MCwidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.qlZSDEtOJPJ_53JFyct0Vkb_KBKcLCt3CMoxqHgGptw","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:14:48]name :获取time  ,  reponse :<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>ias/1.7.3_1.17.3</center>
+</body>
+</html>
+
+[INFO 2022-05-25 16:14:48]name :淘宝获取时间  ,  reponse :{"api":"mtop.common.getTimestamp","v":"*","ret":["SUCCESS::接口调用成功"],"data":{"t":"1653466441289"}}
+[INFO 2022-05-25 16:14:48]name :苏宁获取时间  ,  reponse :{"sysTime2":"2022-05-25 16:14:01","sysTime1":"20220525161401"}
+[INFO 2022-05-25 16:15:24]name :获取token  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQ3NzIxMzI1MTJFMTIsImV4cCI6MTY1NDA3MTI3NywidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.P6ztKPl391trV1vOEh0bRl9imVzBCI5u44gGtkmk6bs","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:15:24]name :获取token-错误的参数名  ,  reponse :{"timestamp":1653466477349,"status":400,"error":"Bad Request","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:15:24]name :获取token-错误的密码  ,  reponse :{"code":"2002","data":{},"msg":"密码输入错误"}
+
+[INFO 2022-05-25 16:15:24]name :获取token-错误的请求方式  ,  reponse :{"timestamp":1653466477627,"status":405,"error":"Method Not Allowed","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:15:24]name :获取token-不带请求头  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NjQ3Nzc2OTIxMkUxMiwiZXhwIjoxNjU0MDcxMjc3LCJ1c2VybmFtZSI6IjE1NzE3ODIzNjAxIn0.sbyu5V5aQCt7H3twVK4m7SXBpJsEMFBgq1hCC-HXDzc","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:15:25]name :获取time  ,  reponse :<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>ias/1.7.3_1.17.3</center>
+</body>
+</html>
+
+[INFO 2022-05-25 16:15:25]name :淘宝获取时间  ,  reponse :{"api":"mtop.common.getTimestamp","v":"*","ret":["SUCCESS::接口调用成功"],"data":{"t":"1653466478183"}}
+[INFO 2022-05-25 16:15:25]name :苏宁获取时间  ,  reponse :{"sysTime2":"2022-05-25 16:14:38","sysTime1":"20220525161438"}
+[INFO 2022-05-25 16:15:30]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:15:30]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:15:30]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:15:30]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:15:30]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:15:30]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:15:30]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:15:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:30]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:15:30]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:15:38]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:15:38]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:15:38]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:15:38]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:15:38]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:15:38]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:15:38]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:15:38]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:38]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:38]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:15:38]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:15:38]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:26:22]name :获取token  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NzEzNTk3MDM5N0UxMiwiZXhwIjoxNjU0MDcxOTM1LCJ1c2VybmFtZSI6IjE1NzE3ODIzNjAxIn0.bInHg9vf8gybW-pJG-JYNpaFL2XcIG3T5nP5AQATSJc","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:26:23]name :获取token-错误的参数名  ,  reponse :{"timestamp":1653467136115,"status":400,"error":"Bad Request","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:26:23]name :获取token-错误的密码  ,  reponse :{"code":"2002","data":{},"msg":"密码输入错误"}
+
+[INFO 2022-05-25 16:26:23]name :获取token-错误的请求方式  ,  reponse :{"timestamp":1653467136367,"status":405,"error":"Method Not Allowed","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:26:23]name :获取token-不带请求头  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NzEzNjUxNjQxNDNFMTIsImV4cCI6MTY1NDA3MTkzNiwidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.VoU1jObLASFfchyAPkUE-KhQb3CkxHxZ245yzdkZj3k","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:26:23]name :获取time  ,  reponse :<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>ias/1.7.3_1.17.3</center>
+</body>
+</html>
+
+[INFO 2022-05-25 16:26:23]name :淘宝获取时间  ,  reponse :{"api":"mtop.common.getTimestamp","v":"*","ret":["SUCCESS::接口调用成功"],"data":{"t":"1653467136930"}}
+[INFO 2022-05-25 16:26:23]name :苏宁获取时间  ,  reponse :{"sysTime2":"2022-05-25 16:25:36","sysTime1":"20220525162536"}
+[INFO 2022-05-25 16:26:38]name :获取token  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NzE1MjAzNDgzMzNFMTIsImV4cCI6MTY1NDA3MTk1MiwidXNlcm5hbWUiOiIxNTcxNzgyMzYwMSJ9.70zUEBAtKzwLzdq8CDRwrFzqDY3DyvZuPSved-dt17g","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:26:39]name :获取token-错误的参数名  ,  reponse :{"timestamp":1653467152175,"status":400,"error":"Bad Request","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:26:39]name :获取token-错误的密码  ,  reponse :{"code":"2002","data":{},"msg":"密码输入错误"}
+
+[INFO 2022-05-25 16:26:39]name :获取token-错误的请求方式  ,  reponse :{"timestamp":1653467152494,"status":405,"error":"Method Not Allowed","message":"","path":"/auth/token"}
+[INFO 2022-05-25 16:26:39]name :获取token-不带请求头  ,  reponse :{"code":"200","msg":"操作成功","data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVUaW1lIjoxLjY1MzQ2NzE1MjYyOTI4NEUxMiwiZXhwIjoxNjU0MDcxOTUyLCJ1c2VybmFtZSI6IjE1NzE3ODIzNjAxIn0.ptgUfaUMEqKLKXht-VeBTlL7XUfFKeRWStdPhaBcm0w","appSignKey":"4ef7692d629fc3760ef432cb772b9ed0","unionid":null,"phone":null}}
+[INFO 2022-05-25 16:26:39]name :获取time  ,  reponse :<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>ias/1.7.3_1.17.3</center>
+</body>
+</html>
+
+[INFO 2022-05-25 16:26:39]name :淘宝获取时间  ,  reponse :{"api":"mtop.common.getTimestamp","v":"*","ret":["SUCCESS::接口调用成功"],"data":{"t":"1653467153023"}}
+[INFO 2022-05-25 16:26:40]name :苏宁获取时间  ,  reponse :{"sysTime2":"2022-05-25 16:25:53","sysTime1":"20220525162553"}
+[INFO 2022-05-25 16:36:42]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:36:42]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:36:42]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:36:42]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:36:42]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:36:42]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:36:42]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:36:42]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:36:42]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:36:42]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:36:42]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:36:42]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:37:59]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:37:59]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:37:59]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:37:59]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:37:59]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:37:59]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:37:59]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:37:59]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:37:59]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:37:59]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:37:59]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:37:59]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:39:47]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:39:47]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:39:47]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:39:47]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:39:47]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:39:47]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:39:47]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:39:47]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:39:47]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:39:47]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:39:47]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:39:47]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 16:40:15]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:40:15]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 16:40:15]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 16:40:15]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 16:40:15]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 16:40:15]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 16:40:15]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 16:40:15]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:40:15]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:40:15]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 16:40:15]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 16:40:15]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:26:39]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:26:39]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:26:39]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:26:39]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:26:39]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:26:39]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:26:39]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:26:39]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:26:39]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:26:39]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:26:39]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:26:39]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:27:41]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:27:41]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:27:41]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:27:41]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:27:41]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:27:41]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:27:41]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:27:41]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:27:41]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:27:41]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:27:41]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:27:41]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:29:04]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:29:04]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:29:04]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:29:04]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:29:04]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:29:04]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:29:04]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:29:04]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:29:04]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:29:04]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:29:04]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:29:04]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:30:30]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:30:30]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:30:30]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:30:30]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:30:30]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:30:30]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:30:30]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:30:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:30]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:30]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:30:30]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:30:55]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:30:55]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:30:55]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:30:55]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:30:55]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:30:55]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:30:55]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:30:55]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:55]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:55]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:30:55]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:30:55]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[INFO 2022-05-25 17:31:46]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:31:46]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-05-25 17:31:46]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-05-25 17:31:46]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-05-25 17:31:46]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-05-25 17:31:46]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-05-25 17:31:46]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-05-25 17:31:46]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:31:46]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:31:46]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-05-25 17:31:46]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-05-25 17:31:46]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
