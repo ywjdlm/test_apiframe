@@ -25,6 +25,9 @@ from common.database_util import databaseutil
 from common.exce_lutil import excelutil
 
 #连接数据库
+from common.sendmail_util import sendmailutil
+
+
 @pytest.fixture(autouse=False)
 def connect_mysql():
     con=databaseutil().db
@@ -39,11 +42,19 @@ def clear_extract():
     Yamlutil().clear_extract_yaml()
     print('yaml文件清除成功')
 
-#写入测试execl类型的测试报告
+
+#写入测试execl类型的测试报告,并执行完用例写入测试报告后发送邮件
 @pytest.fixture(scope='module',autouse=False)
 def first_write():
     excelutil().create_Yaml_excel()
     print('用例执行前自动创建一个空表')
+    yield
+    file=excelutil().savepath
+    sendmailutil().send_mail("1571754405@qq.com",file)
+    sendmailutil().send_mail("980975647@qq.com", file)
+    print("用例执行结束,邮件发送成功")
+
+
 
 
 
