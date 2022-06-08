@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/case_data/cases/moreAPI.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20220608Projectlog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APIframe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APIframe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_data/Yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/Yaml_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel_report/20220607测试报告.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel_report/20220607测试报告.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/20220607Projectlog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/20220607Projectlog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +35,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pycharm-project" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -196,22 +195,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654572948384" />
-    <state width="1344" height="220" key="GridCell.Tab.0.bottom" timestamp="1654589313347">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="690" y="219" key="FileChooserDialogImpl" timestamp="1654693341931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654693341931" />
+    <state width="1894" height="265" key="GridCell.Tab.0.bottom" timestamp="1654693761730">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1344" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
-    <state width="1344" height="220" key="GridCell.Tab.0.center" timestamp="1654589313347">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1894" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654693761730" />
+    <state width="1894" height="265" key="GridCell.Tab.0.center" timestamp="1654693761730">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1344" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
-    <state width="1344" height="220" key="GridCell.Tab.0.left" timestamp="1654589313347">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1894" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654693761730" />
+    <state width="1894" height="265" key="GridCell.Tab.0.left" timestamp="1654693761730">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1344" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
-    <state width="1344" height="220" key="GridCell.Tab.0.right" timestamp="1654589313347">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1894" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654693761730" />
+    <state width="1894" height="265" key="GridCell.Tab.0.right" timestamp="1654693761730">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1344" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
+    <state width="1894" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654693761730" />
     <state width="1344" height="161" key="GridCell.Tab.1.bottom" timestamp="1653471165830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,14 +239,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="204" key="Performance.Activity.Monitor/0.0.1366.728@0.0.1366.728" timestamp="1654234277321" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1654233889045">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="259" y="0" key="SettingsEditor" timestamp="1654693669101">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654233889045" />
+    <state x="259" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654693669101" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654680684139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654680684139" />
+    <state x="694" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654693818774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654693818774" />
     <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654569697500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
