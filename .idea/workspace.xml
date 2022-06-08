@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel_report/20220607测试报告.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/20220607Projectlog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_data/cases/moreAPI.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runall.py" beforeDir="false" afterPath="$PROJECT_DIR$/runall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_data/Yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/Yaml_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel_report/20220607测试报告.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel_report/20220607测试报告.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20220607Projectlog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/20220607Projectlog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +49,7 @@
       <recent name="D:\PyCharm2019\APIframe" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_Yaml">
-    <configuration name="1_test_Excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIframe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cases_api/1_test_Excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.runall">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="APIframe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +84,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/exce_lutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="APIframe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runall" />
         <item itemvalue="Python.test_Yaml" />
         <item itemvalue="Python.sendmail_util" />
         <item itemvalue="Python.exce_lutil" />
         <item itemvalue="Python.conftest" />
-        <item itemvalue="Python.1_test_Excel" />
       </list>
     </recent_temporary>
   </component>
@@ -177,28 +176,42 @@
       <option name="presentableId" value="Default" />
       <updated>1636955595080</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增发送测试报告">
+      <created>1654572950189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654572950189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="新增发送测试报告" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增发送测试报告" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1344" height="232" key="GridCell.Tab.0.bottom" timestamp="1654572625687">
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654572948384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654572625687" />
-    <state width="1344" height="232" key="GridCell.Tab.0.center" timestamp="1654572625687">
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654572948384" />
+    <state width="1344" height="220" key="GridCell.Tab.0.bottom" timestamp="1654589313347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654572625687" />
-    <state width="1344" height="232" key="GridCell.Tab.0.left" timestamp="1654572625687">
+    <state width="1344" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
+    <state width="1344" height="220" key="GridCell.Tab.0.center" timestamp="1654589313347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654572625687" />
-    <state width="1344" height="232" key="GridCell.Tab.0.right" timestamp="1654572625687">
+    <state width="1344" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
+    <state width="1344" height="220" key="GridCell.Tab.0.left" timestamp="1654589313347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654572625687" />
+    <state width="1344" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
+    <state width="1344" height="220" key="GridCell.Tab.0.right" timestamp="1654589313347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654589313347" />
     <state width="1344" height="161" key="GridCell.Tab.1.bottom" timestamp="1653471165830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -223,6 +236,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654233889045" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654680684139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654680684139" />
     <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654569697500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

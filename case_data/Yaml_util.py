@@ -25,6 +25,15 @@ class Yamlutil():
             # print(value)
             return value;
 
+    def read_moreAPI_Yaml(self,yaml_file,groupname):
+        """
+        读取一个yaml文件中放多个接口的用例的方法
+        """
+        with open(pathutil().get_path_project()+"\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:
+            caseinfo=yaml.load(stream=f.read(),Loader=yaml.FullLoader)
+            case_API=caseinfo[groupname]
+            return case_API;
+
     """
     extract临时文件读写清空操作
     1.key为键值对格式或者键=值格式传参
@@ -34,6 +43,7 @@ class Yamlutil():
         with open(pathutil().get_path_project()+"\\case_data\\extract.yaml", mode="r", encoding="utf-8") as f:
             value =yaml.load(stream=f,Loader=yaml.FullLoader)
             return value[key];
+
 
     #写入yaml文件,写到extract.yaml中,yaml/yml都是yaml文件后缀
     def write_extract_yaml(self,data):

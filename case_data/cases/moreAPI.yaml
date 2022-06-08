@@ -1,0 +1,20 @@
+﻿getcode:
+  -
+    name: 获取code
+    request:
+      url: http://101.133.235.37:9970/api/user/sendSms
+      method: post
+      data:
+        mobile: '18327241367'
+        event: login
+    validate: None
+
+gettoken:
+  -
+    name: 获取token
+    request:
+      url: http://101.133.235.37:9970/api/user/login
+      method: post
+      data:
+        username: '18327241367'
+    validate: None
