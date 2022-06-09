@@ -1,0 +1,43 @@
+﻿getcode:
+  -
+    name: 获取code
+    request:
+      url: http://101.133.235.37:9970/api/user/sendSms
+      method: post
+      data:
+        mobile: '15717823601'
+        event: login
+    validate: None
+
+  - name: 获取code-错误的参数名
+    request:
+      url: http://101.133.235.37:9970/api/user/sendSms
+      method: post
+      data:
+        mobiles: '15717823601'
+        event: login
+    validate: None
+
+
+gettoken:
+  -
+    name: 获取token
+    request:
+      url: http://101.133.235.37:9970/api/user/login
+      method: post
+      data:
+        username: '15717823601'
+        code: ${code}
+    validate: None
+
+
+login:
+  -
+    name: 登录小程序
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      method: get
+      head:
+        x-token: ''
+      data: None
+    assert: '成功'
