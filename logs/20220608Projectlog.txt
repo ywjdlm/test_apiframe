@@ -1,0 +1,18 @@
+[INFO 2022-06-08 21:09:23]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-06-08 21:09:23]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[INFO 2022-06-08 21:09:23]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[INFO 2022-06-08 21:09:23]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[INFO 2022-06-08 21:09:23]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[INFO 2022-06-08 21:09:23]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[ERROR 2022-06-08 21:09:23]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[INFO 2022-06-08 21:09:23]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-06-08 21:09:23]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-06-08 21:09:23]  这里是接口的返回值:  True,  断言成功!!!
+[INFO 2022-06-08 21:09:23]  这里是接口的返回值:  True,  断言成功!!!
+[ERROR 2022-06-08 21:09:23]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True
+[DEBUG 2022-06-08 22:35:37]我是一个debug的日志,啦啦啦
+[INFO 2022-06-08 22:35:37]我是info日志信息,哈哈哈
+[WARNING 2022-06-08 22:35:37]这是一个warning级别的日志
+[ERROR 2022-06-08 22:35:37]这是一个erro级别的日志信息
+[CRITICAL 2022-06-08 22:35:37]我是一个critical非常严重级别的日志信息,要注意噢!!!
+[INFO 2022-06-08 22:35:37]我没有括号,这就是@staticmethod的其中一个用法

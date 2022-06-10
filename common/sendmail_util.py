@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 from config.ini_util import iniutil
 
 
-class sendmailutil:
+class sendmailutil():
     """
     email_to:邮件接收者地址
     filepath:需要传入的附件
@@ -35,7 +35,7 @@ class sendmailutil:
 
         # 附件部分，只能发一个附件，需要多个附件，对下面代码做for循环
         part = MIMEApplication(open(filepath, "rb").read())  # 打开附件
-        part.add_header("Content-Disposition", "attachment", filename=filepath)  # 加头部信息
+        part.add_header("Content-Disposition", "attachment", filename=filepath)  # 添加头部信息
         msg.attach(part)
 
         #多个附件

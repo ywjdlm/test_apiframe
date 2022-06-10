@@ -89,6 +89,7 @@ class logutil:
 #     logutil().warning("这是一个warning级别的日志")
 #     logutil().error("这是一个erro级别的日志信息")
 #     logutil().critical("我是一个critical非常严重级别的日志信息,要注意噢!!!")
+#     logutil.info('我没有括号,这就是@staticmethod的其中一个用法')
 
 
 
