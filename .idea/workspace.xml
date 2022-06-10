@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runall.py" beforeDir="false" afterPath="$PROJECT_DIR$/runall.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654759416319</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增yaml文件的部分方法">
+      <created>1654824602214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654824602214</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增yaml文件的部分方法">
+      <created>1654824721744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654824721744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,10 +224,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1654824621585" />
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654824599834">
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654824720484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654824599834" />
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654824720484" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1654824749697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1654824749697" />
     <state width="1344" height="4" key="GridCell.Tab.0.bottom" timestamp="1654759428410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,10 +272,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654824479963" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654824607432">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654824756400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654824607432" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654824756400" />
     <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654824663777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
