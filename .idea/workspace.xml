@@ -18,6 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20wVNLr8d7cv1d9iyB8NxjxIoLG" />
@@ -224,10 +230,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1654824621585" />
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654824720484">
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654824885273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654824720484" />
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654824885273" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1654824749697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,10 +278,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654824479963" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654824756400">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654824898279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654824756400" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654824898279" />
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654824924029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1654824924029" />
     <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654824663777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
