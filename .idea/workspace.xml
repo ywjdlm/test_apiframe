@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/case_data/cases/yongli.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/fuzzy_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/getnest_util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_data/Yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/Yaml_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +30,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -190,36 +187,48 @@
       <option name="project" value="LOCAL" />
       <updated>1654680736514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增yaml文件的部分方法">
+      <created>1654759416319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654759416319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="新增发送测试报告" />
     <MESSAGE value="新增一个yaml可以写入多个不同的接口以及yamlutil方法更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增一个yaml可以写入多个不同的接口以及yamlutil方法更新" />
+    <MESSAGE value="新增yaml文件的部分方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增yaml文件的部分方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654680734092">
+    <state x="275" y="21" key="#Notifications" timestamp="1654824494880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654680734092" />
-    <state width="1344" height="131" key="GridCell.Tab.0.bottom" timestamp="1654751366728">
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1654824494880" />
+    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1654759413251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654751366728" />
-    <state width="1344" height="131" key="GridCell.Tab.0.center" timestamp="1654751366728">
+    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654759413251" />
+    <state width="1344" height="4" key="GridCell.Tab.0.bottom" timestamp="1654759428410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654751366728" />
-    <state width="1344" height="131" key="GridCell.Tab.0.left" timestamp="1654751366728">
+    <state width="1344" height="4" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654759428410" />
+    <state width="1344" height="4" key="GridCell.Tab.0.center" timestamp="1654759428410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654751366728" />
-    <state width="1344" height="131" key="GridCell.Tab.0.right" timestamp="1654751366728">
+    <state width="1344" height="4" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654759428410" />
+    <state width="1344" height="4" key="GridCell.Tab.0.left" timestamp="1654759428410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654751366728" />
+    <state width="1344" height="4" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654759428410" />
+    <state width="1344" height="4" key="GridCell.Tab.0.right" timestamp="1654759428410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="4" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654759428410" />
     <state width="1344" height="161" key="GridCell.Tab.1.bottom" timestamp="1653471165830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,18 +249,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="204" key="Performance.Activity.Monitor/0.0.1366.728@0.0.1366.728" timestamp="1654234277321" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1654233889045">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1654824479963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654233889045" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654680746936">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654824479963" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1654759418854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654680746936" />
-    <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654569697500">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654759418854" />
+    <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654824522431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1654569697500" />
+    <state x="393" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1654824522431" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1646188844707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
