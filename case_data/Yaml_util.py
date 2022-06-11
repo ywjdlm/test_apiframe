@@ -34,6 +34,31 @@ class Yamlutil():
             case_API=caseinfo[groupname]
             return case_API;
 
+    def diguichaxun(self, yaml_file, objkey, ex_value, default, groupname=None):
+        try:
+            if groupname is not None:
+                data = Yamlutil().read_moreAPI_Yaml(yaml_file, groupname)
+            else:
+                data = Yamlutil().read_casesYaml(yaml_file)
+        except:
+            raise FileNotFoundError('输入的yaml文件格式错误!!!')
+        # read_get_test_yml返回的是一个列表格式
+        # 先将列表拆成一个个字典
+        for i in data:
+            try:
+                a = Yamlutil().get_dic_nest(i, objkey, default)
+                if isinstance(a, str):
+                    if ex_value == a:
+                        return i
+                elif isinstance(a, int):
+                    if ex_value == a:
+                        return i
+                else:
+                    if ex_value in a.values():
+                        return i
+            except:
+                raise FileNotFoundError('没有找到匹配的数剧,请查阅对应yaml文件!!!')
+
     """
     extract临时文件读写清空操作
     1.key为键值对格式或者键=值格式传参

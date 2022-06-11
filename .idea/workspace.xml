@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
+    <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="@staticmethod要调用一个静态方法，一般使用形式是：「 类名.方法名() 」">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/log_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sendmail_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/sendmail_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,21 +194,7 @@
       <option name="project" value="LOCAL" />
       <updated>1654699086076</updated>
     </task>
-    <task id="LOCAL-00004" summary="@staticmethod要调用一个静态方法，一般使用形式是：「 类名.方法名() 」">
-      <created>1654776787291</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654776787291</updated>
-    </task>
-    <task id="LOCAL-00005" summary="@staticmethod要调用一个静态方法，一般使用形式是：「 类名.方法名() 」">
-      <created>1654776829045</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654776829045</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,15 +205,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="@staticmethod要调用一个静态方法，一般使用形式是：「 类名.方法名() 」" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="452" y="96" key="#Notifications" timestamp="1654776858198">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="96" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1654776858198" />
-    <state x="117" y="21" key="CommitChangelistDialog2" timestamp="1654776828404">
+    <state x="117" y="21" key="CommitChangelistDialog2" timestamp="1654776807270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1654572948384" />
-    <state x="117" y="21" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1654776828404" />
+    <state x="117" y="21" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1654776807270" />
     <state x="690" y="219" key="FileChooserDialogImpl" timestamp="1654693341931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,11 +259,11 @@
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654233889045" />
     <state x="259" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654693669101" />
-    <state x="387" y="137" key="Vcs.Push.Dialog.v2" timestamp="1654776830583">
+    <state x="387" y="137" key="Vcs.Push.Dialog.v2" timestamp="1654699088638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654680684139" />
-    <state x="387" y="137" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654776830583" />
+    <state x="387" y="137" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654699088638" />
     <state x="694" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654776819348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
