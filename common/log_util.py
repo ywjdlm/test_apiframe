@@ -42,7 +42,7 @@ class logutil():
         #添加句柄
         logutil().logger.addHandler(logutil().rotatingFileHandler)
         #设置输出格式
-        logutil().logger.debug("[DEBUG " + get_current_time() + "]" + log_msg)
+        logutil().logger.debug("[log] - "+"[DEBUG " + get_current_time() + "]" + log_msg)
         #移除句柄
         logutil().logger.removeHandler(logutil().rotatingFileHandler)
 
@@ -51,7 +51,7 @@ class logutil():
         #添加句柄
         logutil().logger.addHandler(logutil().rotatingFileHandler)
         #设置输出格式
-        logutil().logger.info("[INFO " + get_current_time() + "]" + log_msg)
+        logutil().logger.info("[log] - "+"[INFO " + get_current_time() + "]" + log_msg)
         #移除句柄
         logutil().logger.removeHandler(logutil().rotatingFileHandler)
 
@@ -60,7 +60,7 @@ class logutil():
         #添加句柄
         logutil().logger.addHandler(logutil().rotatingFileHandler)
         #设置输出格式
-        logutil().logger.warning("[WARNING " + get_current_time() + "]" + log_msg)
+        logutil().logger.warning("[log] - "+"[WARNING " + get_current_time() + "]" + log_msg)
         #移除句柄
         logutil().logger.removeHandler(logutil().rotatingFileHandler)
 
@@ -69,7 +69,7 @@ class logutil():
         #添加句柄
         logutil().logger.addHandler(logutil().rotatingFileHandler)
         #设置输出格式
-        logutil().logger.error("[ERROR " + get_current_time() + "]" + log_msg)
+        logutil().logger.error("[log] - "+"[ERROR " + get_current_time() + "]" + log_msg)
         #移除句柄
         logutil().logger.removeHandler(logutil().rotatingFileHandler)
 
@@ -78,18 +78,18 @@ class logutil():
         #添加句柄
         logutil().logger.addHandler(logutil().rotatingFileHandler)
         #设置输出格式
-        logutil().logger.critical("[CRITICAL " + get_current_time() + "]" + log_msg)
+        logutil().logger.critical("[log] - "+"[CRITICAL " + get_current_time() + "]" + log_msg)
         #移除句柄
         logutil().logger.removeHandler(logutil().rotatingFileHandler)
 
 
-# if __name__ == '__main__':
-#     logutil().debug("我是一个debug的日志,啦啦啦")
-#     logutil().info("我是info日志信息,哈哈哈")
-#     logutil().warning("这是一个warning级别的日志")
-#     logutil().error("这是一个erro级别的日志信息")
-#     logutil().critical("我是一个critical非常严重级别的日志信息,要注意噢!!!")
-#     logutil.info('我没有括号,这就是@staticmethod的其中一个用法')
+if __name__ == '__main__':
+    logutil().debug("我是一个debug的日志,啦啦啦")
+    logutil().info("我是info日志信息,哈哈哈")
+    logutil().warning("这是一个warning级别的日志")
+    logutil().error("这是一个erro级别的日志信息")
+    logutil().critical("我是一个critical非常严重级别的日志信息,要注意噢!!!")
+    logutil.info('我没有括号,这就是@staticmethod的其中一个用法')
 
 
 
