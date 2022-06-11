@@ -12,7 +12,7 @@ def get_current_time():
     return time.strftime(logutil().current_time, time.localtime(time.time()))
 
 
-class logutil:
+class logutil():
 
 
     # 获取logger对象,取名log
