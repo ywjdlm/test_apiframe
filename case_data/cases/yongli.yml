@@ -18,6 +18,15 @@
         event: login
     validate: None
 
+  - name: 获取code-错误的请求方式
+    request:
+      url: http://101.133.235.37:9970/api/user/sendSms
+      method: get
+      data:
+        mobile: '15717823601'
+        event: login
+    validate: None
+
 
 gettoken:
   -

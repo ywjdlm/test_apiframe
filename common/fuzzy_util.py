@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*-
 import re
 
+from case_data.Yaml_util import Yamlutil
+
 
 class fuzzyutil():
 
@@ -59,4 +61,5 @@ class fuzzyutil():
 #     va = "dir1"
 #     result = fuzzyutil().fuzzy_finder(va, 'type', file_list)
 #     print(result)
+
 
