@@ -19,7 +19,7 @@ from config.ini_util import iniutil
 
 class Testceshi:
 
-    @pytest.mark.parametrize('caseinfo',Yamlutil().read_casesYaml('casesYaml.yaml'))
+    @pytest.mark.parametrize('caseinfo',Yamlutil().read_moreAPI_Yaml('casesYaml.yaml'))
     def test01(self,caseinfo,connect_mysql):
         print(caseinfo)
         print(caseinfo['name'])
@@ -38,7 +38,7 @@ class Testceshi:
         res_name=Yamlutil().read_extract_yaml('name')
         print(res_name)
 
-    @pytest.mark.parametrize('caseinfo',Yamlutil().read_casesYaml('rl_api.yaml'))
+    @pytest.mark.parametrize('caseinfo',Yamlutil().read_moreAPI_Yaml('rl_api.yaml'))
     def test04(self,caseinfo):
         # 组合url访问
         # print(caseinfo)
@@ -50,7 +50,7 @@ class Testceshi:
         else:
             logutil().error("  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  " + url + "  ,  实际结果:  " + "200(这里可以通过返回的实际值取)")
 
-    @pytest.mark.parametrize('cs',Yamlutil().read_casesYaml('rl_api.yaml'))
+    @pytest.mark.parametrize('cs',Yamlutil().read_moreAPI_Yaml('rl_api.yaml'))
     def test05(self,cs):
         #判断多个断言
         a = assertutil().assert_code(200, cs['assert']['code'])
@@ -62,7 +62,7 @@ class Testceshi:
             logutil().error("  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  " + str(a) + "  ,  实际结果:  " + "200(这里可以通过返回的实际值取)"+"另外一个实际结果:  "+ str(b))
 
 
-    @pytest.mark.parametrize('baogao',Yamlutil().read_casesYaml('rl_api.yaml'))
+    @pytest.mark.parametrize('baogao',Yamlutil().read_moreAPI_Yaml('rl_api.yaml'))
     def test06(self,baogao,first_write):
         #生成excel格式的报告
         req="实际结果xxxxx"
@@ -75,6 +75,10 @@ class Testceshi:
                     req,b]
         excelutil().write_data(excel_data)
         # print(json.dumps(baogao['request']['params']),type(json.dumps(baogao['request']['params'])))
+
+    @pytest.mark.parametrize('yongli', Yamlutil().read_moreAPI_Yaml('yongli.yml',groupname='gettoken'))
+    def test07(self,yongli):
+        print(yongli)
 
 
 if __name__ == '__main__':
