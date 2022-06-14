@@ -22,6 +22,7 @@
   </component>
   <component name="ProjectId" id="20wVNLr8d7cv1d9iyB8NxjxIoLG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="更新" />
     <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
@@ -237,6 +238,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习字典" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="452" y="96" key="#Notifications" timestamp="1655212004363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="96" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1655212004363" />
     <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1655177301267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,10 +313,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654776819348" />
-    <state x="393" y="154" key="git4idea.merge.GitPullDialog" timestamp="1654569697500">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="552" y="220" key="git4idea.merge.GitPullDialog" timestamp="1655211991901">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1654569697500" />
+    <state x="552" y="220" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655211991901" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,7 +19,7 @@ class signutil():
             return signData
         # print(signData)
         except:
-            raise Exception('传参格式不为字典格式,请检查!!!')
+            raise Exception('传参格式有误,请检查!!!')
 
 
     #根据筛选后的传参数据生成MD5加密格式的字符串
