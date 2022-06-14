@@ -55,13 +55,13 @@ class Yamlutil():
             with open(pathutil().get_path_project()+"\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:
                 caseinfo=yaml.load(stream=f.read(),Loader=yaml.FullLoader)
                 case_API=caseinfo[groupname]
-                return case_API;
+                return case_API
         else:
             with open(pathutil().get_path_project() + "\\case_data\\cases\\" + yaml_file, mode='r',
                       encoding='utf-8') as f:
                 value = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
                 # print(value)
-                return value;
+                return value
 
     def diguichaxun(self, yaml_file, objkey, ex_value, default=None, groupname=None):
         try:
