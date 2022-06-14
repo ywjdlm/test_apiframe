@@ -49,7 +49,7 @@ class Yamlutil():
 
     def read_moreAPI_Yaml(self,yaml_file,groupname=None):
         """
-        读取一个yaml文件中放多个接口的用例的方法
+        读取一个yaml文件中放多个接口的用例的方法或者单个接口的方法
         """
         if groupname is not None:
             with open(pathutil().get_path_project()+"\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:

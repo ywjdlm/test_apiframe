@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/excel_report/20220614测试报告.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20220614Projectlog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_data/cases/yongli.yml" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/cases/yongli.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/fuzzy_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/fuzzy_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_data/Yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/Yaml_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="D:\PyCharm2019\APIframe" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fuzzy_util">
+  <component name="RunManager" selected="Python.test_Yaml">
     <configuration name="Yaml_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="APIframe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_Yaml" />
         <item itemvalue="Python.fuzzy_util" />
         <item itemvalue="Python.Yaml_util" />
         <item itemvalue="Python.log_util" />
         <item itemvalue="Python.runall" />
-        <item itemvalue="Python.test_Yaml" />
       </list>
     </recent_temporary>
   </component>
