@@ -50,3 +50,51 @@ login:
         x-token: ''
       data: None
     assert: '成功'
+
+  - name: 登录小程序-错误的请求方式
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      method: post
+      head:
+        x-token: ''
+      data: None
+    assert: '失败'
+
+
+  - name: 登录小程序-错误的参数名
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      methods: get
+      head:
+        x-token: ''
+      data: None
+    assert: '失败'
+
+  - name: 登录小程序-错误的请求地址
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfoss
+      method: get
+      head:
+        x-token: ''
+      data: None
+    assert: '失败'
+
+  - name: 登录小程序-强行传入data
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      method: get
+      head:
+        x-token: ''
+      data:
+          username: '15717823601'
+          code: ${code}
+    assert: '成功'
+
+  - name: 登录小程序-错误的断言值
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      method: get
+      head:
+        x-token: ''
+      data: None
+    assert: '404 not found'
