@@ -84,7 +84,7 @@ login:
       url: http://101.133.235.37:9970/api/user/userInfo
       method: get
       head:
-        x-token: ''
+        x-token: 123
       data:
           username: '15717823601'
           code: ${code}
