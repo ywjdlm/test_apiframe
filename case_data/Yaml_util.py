@@ -55,13 +55,13 @@ class Yamlutil():
             with open(pathutil().get_path_project()+"\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:
                 caseinfo=yaml.load(stream=f.read(),Loader=yaml.FullLoader)
                 case_API=caseinfo[groupname]
-                return case_API;
+                return case_API
         else:
             with open(pathutil().get_path_project() + "\\case_data\\cases\\" + yaml_file, mode='r',
                       encoding='utf-8') as f:
                 value = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
                 # print(value)
-                return value;
+                return value
 
     def diguichaxun(self, yaml_file, objkey, ex_value, default=None, groupname=None):
         try:
@@ -147,7 +147,7 @@ if __name__ == '__main__':
                             "static/uploads/20220601/9c7bda0f34e37173e4e565082517b9e2.jpg"], "tagList": [
             {"id": 246, "createdAt": "2022-05-31T16:11:56+08:00", "updatedAt": "2022-05-31T16:11:56+08:00", "uid": 129,
              "tagName": "运动"},
-            {"id": 247, "createdAt": "2022-05-31T16:11:56+08:00", "updatedAt": "2022-05-31T16:11:56+08:00", "uid": 129,
+            {"id": 247, "createdAt": "2022-05-31T16:11:56+08:00", "updatedAt": "2022-0 5-31T16:11:56+08:00", "uid": 129,
              "tagName": "服饰"},
             {"id": 248, "createdAt": "2022-05-31T16:11:56+08:00", "updatedAt": "2022-05-31T16:11:56+08:00", "uid": 129,
              "tagName": "打游戏"},
