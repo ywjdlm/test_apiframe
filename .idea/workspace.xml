@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/excel_report/20220629测试报告.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel_report/20220630测试报告.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel_report/20220701测试报告.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20220629Projectlog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20220630Projectlog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20220701Projectlog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_data/Yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_data/Yaml_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pycharm-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspace" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -46,7 +51,7 @@
       <recent name="D:\PyCharm2019\APIframe" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nest_select_util">
+  <component name="RunManager" selected="Python.runall">
     <configuration name="Yaml_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="APIframe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,27 +73,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fuzzy_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="APIframe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/fuzzy_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="nest_select_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="APIframe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +86,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/nest_select_util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="APIframe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runall" />
         <item itemvalue="Python.nest_select_util" />
         <item itemvalue="Python.Yaml_util" />
         <item itemvalue="Python.sign_util" />
         <item itemvalue="Python.test_Yaml" />
-        <item itemvalue="Python.fuzzy_util" />
       </list>
     </recent_temporary>
   </component>
@@ -253,34 +258,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="新增解析嵌套字典的方法" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="256" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1656487947766">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="256" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.952@0.0.1600.952" timestamp="1656487947766" />
     <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1655450515837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655450515837" />
     <state x="117" y="21" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1655128399863" />
-    <state x="690" y="219" key="FileChooserDialogImpl" timestamp="1654693341931">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="575" y="200" key="FileChooserDialogImpl" timestamp="1656487980557">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
+    <state x="575" y="200" key="FileChooserDialogImpl/0.0.1600.952@0.0.1600.952" timestamp="1656487980557" />
     <state x="690" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654693341931" />
-    <state width="1344" height="185" key="GridCell.Tab.0.bottom" timestamp="1655450577747">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1580" height="395" key="GridCell.Tab.0.bottom" timestamp="1656565038454">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state width="1344" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655450577747" />
+    <state width="1580" height="395" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1656565038454" />
     <state width="947" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1655129067392" />
-    <state width="1344" height="185" key="GridCell.Tab.0.center" timestamp="1655450577747">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1580" height="395" key="GridCell.Tab.0.center" timestamp="1656565038454">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state width="1344" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655450577747" />
+    <state width="1580" height="395" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1656565038454" />
     <state width="947" height="424" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1655129067392" />
-    <state width="1344" height="185" key="GridCell.Tab.0.left" timestamp="1655450577747">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1580" height="395" key="GridCell.Tab.0.left" timestamp="1656565038454">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state width="1344" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655450577747" />
+    <state width="1580" height="395" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1656565038454" />
     <state width="947" height="424" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1655129067392" />
-    <state width="1344" height="185" key="GridCell.Tab.0.right" timestamp="1655450577747">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1580" height="395" key="GridCell.Tab.0.right" timestamp="1656565038454">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state width="1344" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655450577747" />
+    <state width="1580" height="395" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1656565038454" />
     <state width="947" height="424" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1655129067392" />
     <state width="1344" height="185" key="GridCell.Tab.1.bottom" timestamp="1655450577747">
       <screen x="0" y="0" width="1366" height="728" />
@@ -310,10 +324,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="204" key="Performance.Activity.Monitor/0.0.1366.728@0.0.1366.728" timestamp="1654234277321" />
-    <state x="259" y="0" key="SettingsEditor" timestamp="1654912686632">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="216" y="0" key="SettingsEditor" timestamp="1656644068135">
+      <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654233889045" />
+    <state x="216" y="0" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1656644068135" />
     <state x="259" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654912686632" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655450520314">
       <screen x="0" y="0" width="1366" height="728" />
