@@ -31,12 +31,12 @@ class Yamlutil():
         读取一个yaml文件中放多个接口的用例的方法或者单个接口的方法
         """
         if groupname is not None:
-            with open(pathutil().get_general_path()+"\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:
+            with open(os.path.join(pathutil().get_cases_path(),yaml_file), mode='r', encoding='utf-8') as f:
                 caseinfo=yaml.load(stream=f.read(),Loader=yaml.FullLoader)
                 case_API=caseinfo[groupname]
                 return case_API
         else:
-            with open(pathutil().get_general_path() + "\\case_data\\cases\\" + yaml_file, mode='r',
+            with open(os.path.join(pathutil().get_cases_path(),yaml_file), mode='r',
                       encoding='utf-8') as f:
                 value = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
                 # print(value)
@@ -48,20 +48,20 @@ class Yamlutil():
     """
     # 读取extract.yaml
     def read_extract_yaml(self,key):
-        with open(pathutil().get_general_path()+"\\case_data\\extract.yaml", mode="r", encoding="utf-8") as f:
+        with open(os.path.join(pathutil().get_casedata_path(),'extract.yaml'), mode="r", encoding="utf-8") as f:
             value =yaml.load(stream=f,Loader=yaml.FullLoader)
             return value[key];
 
 
     #写入yaml文件,写到extract.yaml中,yaml/yml都是yaml文件后缀
     def write_extract_yaml(self,data):
-        with open(pathutil().get_general_path()+"\\case_data\\extract.yaml", mode="a", encoding="utf-8") as f:# mode="a",w覆盖写入,a是追加
+        with open(os.path.join(pathutil().get_casedata_path(),'extract.yaml'), mode="a", encoding="utf-8") as f:# mode="a",w覆盖写入,a是追加
             value = yaml.dump(data=data,stream=f, allow_unicode=True)
             return value;
 
     #清除yaml文件的内容
     def clear_extract_yaml(self):
-        with open(pathutil().get_general_path()+"\\case_data\\extract.yaml", mode="w", encoding="utf-8") as f:
+        with open(os.path.join(pathutil().get_casedata_path(),'extract.yaml'), mode="w", encoding="utf-8") as f:
             f.truncate()
 
 
@@ -77,7 +77,7 @@ class Yamlutil():
 
         """
         # 打开yaml文件并读取
-        with open(pathutil().get_general_path() + "\\case_data\\cases\\"+yaml_file, mode='r', encoding='utf-8') as f:
+        with open(os.path.join(pathutil().get_cases_path(),yaml_file), mode='r', encoding='utf-8') as f:
             read_res = f.read()
             # 获取yaml文件中的对应格式变量
             temp = Template(read_res)
