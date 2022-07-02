@@ -1,0 +1,12 @@
+[log] - [INFO 2022-07-02 11:32:20]   name :获取时间1  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[log] - [INFO 2022-07-02 11:32:20]   name :获取时间2  ,  reponse :{"method": "get", "url": "http://poetry.apiopen.top/getTime", "body": "None"}
+[log] - [INFO 2022-07-02 11:32:20]   这里是接口的返回值:  https://service.rulin.pro/wechat/login,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]   这里是接口的返回值:  https://service.rulin.pro/banner/list,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]   这里是接口的返回值:  https://service.rulin.pro/sms/forget/deal/pwd,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]   这里是接口的返回值:  https://service.rulin.pro/sms/logout/check,  断言成功!!!
+[log] - [ERROR 2022-07-02 11:32:20]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  https://service.rulin.pro/activity/list  ,  实际结果:  200(这里可以通过返回的实际值取)
+[log] - [INFO 2022-07-02 11:32:20]  这里是接口的返回值:  True,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]  这里是接口的返回值:  True,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]  这里是接口的返回值:  True,  断言成功!!!
+[log] - [INFO 2022-07-02 11:32:20]  这里是接口的返回值:  True,  断言成功!!!
+[log] - [ERROR 2022-07-02 11:32:20]  用例断言失败,  请求情况:xxxxxxxxxxxx ,  这里是接口的返回值:  False  ,  实际结果:  200(这里可以通过返回的实际值取)另外一个实际结果:  True

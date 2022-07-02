@@ -19,7 +19,7 @@ class logutil():
     logger = logging.getLogger("log")
     logger.setLevel(logging.DEBUG)
     # 创建文件目录
-    logs_dir = pathutil().get_path_project() + "\\logs"
+    logs_dir = pathutil().get_general_path() + "\\logs"
     if os.path.exists(logs_dir) and os.path.isdir(logs_dir):
         pass
     else:

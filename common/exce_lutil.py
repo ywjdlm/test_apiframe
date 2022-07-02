@@ -14,7 +14,7 @@ class excelutil():
     timestamp = time.strftime("%Y%m%d", time.localtime())
     excelname = '%s测试报告' % timestamp
     suffix='.xlsx'
-    savepath=pathutil().get_path_project()+'\\excel_report\\'+ excelname+suffix
+    savepath=pathutil().get_general_path()+'\\excel_report\\'+ excelname+suffix
 
     # 读取定义的表格用例,并返回一个用例列表(用例格式为字典格式)
     """
@@ -75,7 +75,7 @@ class excelutil():
 
             for i in row_data:
                 ws.append(i)
-            wb.save(pathutil().get_path_project()+'\\excel_report\\'+ file_name+suffix)
+            wb.save(pathutil().get_general_path()+'\\excel_report\\'+ file_name+suffix)
         except:
             print('表格写入异常,请检查!')
 

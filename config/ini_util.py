@@ -12,7 +12,8 @@ class iniutil:
 
     # 读取配置文件
     def read_confini(self):
-        filepath = pathutil().get_path_project() + '\\config\\conf.ini'
+        filepath = pathutil().get_general_path() + '\\config\\conf.ini'
+        print(filepath)
         # 判断配置文件是否存在,若不存在抛出提示
         if not os.path.exists(filepath):
             raise FileNotFoundError("文件不存在")
@@ -39,7 +40,7 @@ class iniutil:
                 iniutil().conf.add_section(Sections)
                 iniutil().conf.set(Sections, key, value)  # 给type分组设置值
                 # conf.set(Sections, 'mail', '123456@qq.com')
-                o = open(pathutil().get_path_project() + '\\config\\conf.ini', 'w')
+                o = open(pathutil().get_general_path() + '\\config\\conf.ini', 'w')
                 iniutil().conf.write(o)
                 o.close()  # 不要忘记关闭
             else:
@@ -54,7 +55,7 @@ class iniutil:
         list1 = iniutil().conf.sections()
         if Sections in list1:
             iniutil().conf.remove_section(Sections)  # 删除配置文件中type分组
-            o = open(pathutil().get_path_project() + '\\config\\conf.ini', 'w')
+            o = open(pathutil().get_general_path() + '\\config\\conf.ini', 'w')
             iniutil().conf.write(o)
             o.close()  # 不要忘记关闭
             print(Sections + "删除成功")
@@ -69,7 +70,7 @@ class iniutil:
         if Sections in list2:
             try:
                 iniutil().conf.remove_option(Sections, key)  # 删除Sections分组的键值对
-                o = open(pathutil().get_path_project() + '\\config\\conf.ini', 'w')
+                o = open(pathutil().get_general_path() + '\\config\\conf.ini', 'w')
                 iniutil().conf.write(o)
                 o.close()  # 不要忘记关闭
                 print(Sections + "下的" + key + "删除成功")
@@ -91,4 +92,4 @@ if __name__ == '__main__':
         host=iniutil().get_confini('mysql-test', 'host')
         print(host)
     except:
-        logutil().info("  "+pathutil().get_path_project() + '\\config\\conf.ini'+':    请检查配置文件!!!')
+        logutil().info("  "+pathutil().get_general_path() + '\\config\\conf.ini'+':    请检查配置文件!!!')
