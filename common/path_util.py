@@ -11,6 +11,7 @@ class pathutil():
         porject_path=os.path.dirname(os.path.dirname(__file__))
         return  porject_path
 
+
     # 此方法可用于win和linux系统,获取项目的路径
     def get_general_path(self):
         """
@@ -22,6 +23,12 @@ class pathutil():
         general_path=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         return general_path
 
+    # 返回配置文件的绝对路径
+    def get_config_path(self):
+        config_dir=os.path.join(pathutil().get_general_path(),'config')
+        config_path=os.path.join(config_dir,'conf.ini')
+        return config_path
+
 
 
 
@@ -29,7 +36,7 @@ class pathutil():
 
 
 if __name__ == '__main__':
-    a=pathutil().get_general_path()
+    a=pathutil().get_config_path()
     print(a)
 
 

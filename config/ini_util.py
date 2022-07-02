@@ -12,7 +12,7 @@ class iniutil:
 
     # 读取配置文件
     def read_confini(self):
-        filepath = pathutil().get_general_path() + '\\config\\conf.ini'
+        filepath = pathutil().get_config_path()
         print(filepath)
         # 判断配置文件是否存在,若不存在抛出提示
         if not os.path.exists(filepath):
