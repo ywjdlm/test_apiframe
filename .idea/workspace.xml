@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/20221024Projectlog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/getnest_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/getnest_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/nest_select_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/nest_select_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,8 +277,51 @@
       <option name="project" value="LOCAL" />
       <updated>1657073835760</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="删除了ini_util的调试代码">
+      <created>1666593789225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666593789225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/pycharmProject/APIframe/common" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -301,22 +341,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除了ini_util的调试代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1580" height="316" key="GridCell.Tab.0.bottom" timestamp="1666593284989">
+    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1666593788407">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="316" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1666593284989" />
-    <state width="1580" height="316" key="GridCell.Tab.0.center" timestamp="1666593284989">
+    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1666593788407" />
+    <state width="1580" height="169" key="GridCell.Tab.0.bottom" timestamp="1666593883902">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="316" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1666593284989" />
-    <state width="1580" height="316" key="GridCell.Tab.0.left" timestamp="1666593284989">
+    <state width="1580" height="169" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1666593883902" />
+    <state width="1580" height="169" key="GridCell.Tab.0.center" timestamp="1666593883902">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="316" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1666593284989" />
-    <state width="1580" height="316" key="GridCell.Tab.0.right" timestamp="1666593284989">
+    <state width="1580" height="169" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1666593883902" />
+    <state width="1580" height="169" key="GridCell.Tab.0.left" timestamp="1666593883902">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="316" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1666593284989" />
+    <state width="1580" height="169" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1666593883902" />
+    <state width="1580" height="169" key="GridCell.Tab.0.right" timestamp="1666593883902">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="169" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1666593883902" />
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1666593791975">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1666593791975" />
+    <state x="596" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1666593881488">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="596" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.952@0.0.1600.952" timestamp="1666593881488" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
