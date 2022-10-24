@@ -8,7 +8,7 @@ class getnestutil():
         """
         获取字典中的key对应的值，适用于字典嵌套
         dic:已知的字典
-        key:已知的键--key
+        objkey:已知的键--key
         default:找不到时返回的默认值
         """
         dic1 = dic

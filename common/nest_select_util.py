@@ -7,6 +7,12 @@ class nestselectutil():
 
     # 嵌套字典分解后对比
     def get_dic_nest(self, dic, objkey=None, default=None, values=None):
+        """
+            获取字典中的key对应的值，适用于字典嵌套
+            dic:已知的字典
+            objkey:已知的键--key
+            default:找不到时返回的默认值
+        """
         # 此分支使用键进行模糊查询
         if values == None and objkey is not None:
             try:
