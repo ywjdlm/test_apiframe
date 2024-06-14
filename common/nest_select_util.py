@@ -23,7 +23,8 @@ class nestselectutil():
                         return key
                     else:
                         if isinstance(dic[key], dict):
-                            new_key = nestselectutil().get_dic_nest(dic[key], objkey=objkey, default=default, values=values) # 循环判断
+                            new_key = nestselectutil().get_dic_nest(dic[key], objkey=objkey, default=default,
+                                                                    values=values)  # 循环判断
                             if new_key is not default:
                                 return new_key
                 return default
@@ -38,7 +39,7 @@ class nestselectutil():
                         return v
                     else:
                         if isinstance(v, dict):
-                            new_v = nestselectutil().get_dic_nest(v,values=values)  # 循环判断
+                            new_v = nestselectutil().get_dic_nest(v, values=values)  # 循环判断
                             if new_v is not default:
                                 return new_v
                 return default
@@ -63,7 +64,8 @@ class nestselectutil():
                     else:
                         # 判断值是否为字典,如果为字典则再判断一次,直到得到相同的键的值为止
                         if isinstance(value, dict):
-                            new_value = nestselectutil().get_dic_nest(value, objkey=objkey,values=values, default=default)
+                            new_value = nestselectutil().get_dic_nest(value, objkey=objkey, values=values,
+                                                                      default=default)
                             # 如果找到值就返回新值,没找到就返回默认
                             if new_value is not default:
                                 return new_value
@@ -71,7 +73,7 @@ class nestselectutil():
             except:
                 raise FileNotFoundError('数据格式有误,无法执行,请检查数据格式!!!')
 
-    def diguichaxun(self, lis_data=None,yaml_files=None, key=None, ex_value=None, default=None, groupnames=None):
+    def diguichaxun(self, lis_data=None, yaml_files=None, key=None, ex_value=None, default=None, groupnames=None):
         """
         :param lis_data: 字典格式的列表
         :param yaml_files: yml文件
@@ -89,8 +91,7 @@ class nestselectutil():
             except:
                 raise FileNotFoundError('输入的yaml文件格式错误!!!')
         else:
-            data=lis_data
-
+            data = lis_data
 
         # 此分支用于使用键进行模糊查询,ex_value用于分支走向的判断,key已知键
         if ex_value == None:
@@ -99,16 +100,16 @@ class nestselectutil():
                 # read_moreAPI_Yaml返回的是一个列表格式
                 # 先将列表拆成一个个字典
                 for i in data:
-                    a = nestselectutil().get_dic_nest(i,objkey=key) # 已知字典和键,如果查到字典里面有这个键,则返回此字典中的 键
+                    a = nestselectutil().get_dic_nest(i, objkey=key)  # 已知字典和键,如果查到字典里面有这个键,则返回此字典中的 键
                     if key == a:
                         lis.append(i)
-                return lis # 最终会返回一个列表
+                return lis  # 最终会返回一个列表
             except:
                 return default
 
-        #此分支用于通过值模糊查询字典
-        elif key==None:
-            li=[]
+        # 此分支用于通过值模糊查询字典
+        elif key == None:
+            li = []
             try:
                 for i in data:
                     a = nestselectutil().get_dic_nest(i, values=ex_value)
@@ -130,7 +131,7 @@ class nestselectutil():
                     try:
                         # 如果ex_value有值,则走向get_dic_nest里的else方法,判断值的类型,
                         # 从而对比返回的值是否正确,若正确则返回一条精准数据,适用于精准查询,有且只有一条数据
-                        a = nestselectutil().get_dic_nest(i, objkey=key,values=ex_value,default=default)
+                        a = nestselectutil().get_dic_nest(i, objkey=key, values=ex_value, default=default)
                         if isinstance(a, str):
                             if ex_value == a:
                                 return i
@@ -138,7 +139,7 @@ class nestselectutil():
                             if ex_value == a:
                                 return i
                         else:
-                            if a == None:
+                            if a is None:
                                 pass
                             else:
                                 if ex_value in a.values():
@@ -161,7 +162,7 @@ class nestselectutil():
             for key, value in dic1.items():  # 遍历字典的键和值
                 if key == objkeys:  # 对比获取的键和已知的键,如果相等则返回键对应的值
                     return value
-                else:       # 如果不相等则查看值是否是字典,再分解值,进行循环判断
+                else:  # 如果不相等则查看值是否是字典,再分解值,进行循环判断
                     if isinstance(value, dict):
                         new_value = getnestutil().get_dic_nest(value, objkeys, default)
                         if new_value is not default:
@@ -173,15 +174,15 @@ class nestselectutil():
 
 if __name__ == '__main__':
     # 测试精确查询,已知key和值的时候
-    a = nestselectutil().diguichaxun(yaml_files='yongli.yml', key='x-token',ex_value=123,groupnames='login')
+    a = nestselectutil().diguichaxun(yaml_files='yongli.yml', key='x-token', ex_value=123, groupnames='login')
     print(a)
 
     # 测试已知值ex_value,查用例
-    A = nestselectutil().diguichaxun(yaml_files='yongli.yml', ex_value='失败',groupnames='login')
+    A = nestselectutil().diguichaxun(yaml_files='yongli.yml', ex_value='失败', groupnames='login')
     print(A)
 
-    #测试已知键key查用例
-    B = nestselectutil().diguichaxun(yaml_files='yongli.yml', key='mobile',groupnames='getcode')
+    # 测试已知键key查用例
+    B = nestselectutil().diguichaxun(yaml_files='yongli.yml', key='mobile', groupnames='getcode')
     print(B)
 
     print(nestselectutil().diguichaxun())
@@ -223,8 +224,7 @@ if __name__ == '__main__':
                  "uid": 129,
                  "tagName": "音乐"}], "educationExtend": "研究生", "area": 0, "maritalStatus": 1, "status": 1}},
             "msg": "操作成功"}
-    b=nestselectutil().get_dic_nest_val(data,objkeys='tagList')
+    b = nestselectutil().get_dic_nest_val(data, objkeys='tagList')
     print(b)
-    c=nestselectutil().diguichaxun(lis_data=b,key='id')
+    c = nestselectutil().diguichaxun(lis_data=b, key='id')
     print(c)
-
