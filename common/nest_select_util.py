@@ -15,9 +15,9 @@ class nestselectutil():
             default:找不到时返回的默认值
         """
         # 此分支使用键进行模糊查询
-        if values == None and objkey is not None:
+        if values is None and objkey is not None:
             try:
-                #获取所有的键
+                # 获取所有的键
                 for key in dic.keys():
                     if key == objkey:
                         return key

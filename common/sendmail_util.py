@@ -55,7 +55,7 @@ class sendmailutil():
 
 
 # if __name__ == '__main__':
-#     sendmailutil().send_mail("980975647@qq.com",r"C:\Users\Administrator\Desktop\测试用例-员工宝.xlsx")
+#     sendmailutil().send_mail("980975647@qq.com",r"C:\Users\Administrator\Desktop\业主导入模板.xlsx")
 #     sendmailutil().send_mail("1571754405@qq.com",r"C:\Users\Administrator\Desktop\测试用例-员工宝.xlsx")
 #     print("配置文件调试成功")
 
