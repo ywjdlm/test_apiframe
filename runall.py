@@ -10,4 +10,5 @@ from config.ini_util import iniutil
 
 if __name__ == '__main__':
     pytest.main()
+    print('测试GIT')
     #hahahha
