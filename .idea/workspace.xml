@@ -20,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20wVNLr8d7cv1d9iyB8NxjxIoLG" />
@@ -352,10 +358,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化注释" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="620" y="111" key="CommitChangelistDialog2" timestamp="1719412024125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="620" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412024125" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1719411989847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1719411989847" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1719412103010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412103010" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
