@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719412134998</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="成功啦">
+      <created>1719412290595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719412290595</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,21 +376,22 @@
     <MESSAGE value="优化注释" />
     <MESSAGE value="测试git" />
     <MESSAGE value="1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="1111" />
+    <MESSAGE value="成功啦" />
+    <option name="LAST_COMMIT_MESSAGE" value="成功啦" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="620" y="111" key="CommitChangelistDialog2" timestamp="1719412134525">
+    <state x="620" y="111" key="CommitChangelistDialog2" timestamp="1719412315701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="620" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412134525" />
+    <state x="620" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412315701" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1719411989847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1719411989847" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1719412138983">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1719412338422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412138983" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1719412338422" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

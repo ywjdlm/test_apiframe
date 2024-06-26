@@ -12,4 +12,5 @@ if __name__ == '__main__':
     pytest.main()
     print('测试GIT111')
     print('test,success')
+    print('可能会pull失败？')
     #hahahha
