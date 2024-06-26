@@ -13,4 +13,5 @@ if __name__ == '__main__':
     print('测试GIT111')
     print('test,success')
     print('可能会pull失败？')
+    print('选择第一个')
     #hahahha
