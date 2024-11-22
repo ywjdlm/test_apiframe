@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b2bb895-747c-49a3-9006-c34b9bb9973c" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/sendmail_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/sendmail_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,8 +298,32 @@
       <option name="project" value="LOCAL" />
       <updated>1666599946675</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="优化嵌套字典的查询以及注释">
+      <created>1718328054182</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718328054182</updated>
+    </task>
+    <task id="LOCAL-00020" summary="优化嵌套字典的查询以及注释">
+      <created>1718328150850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718328150850</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -358,10 +381,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化嵌套字典的查询以及注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1718328052364">
+    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1718328149563">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1718328052364" />
+    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1718328149563" />
     <state x="596" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1718328081160">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
