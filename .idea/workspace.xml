@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740378829254</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="优化嵌套字典的查询以及注释">
+      <created>1740379176375</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740379176375</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -409,10 +416,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化嵌套字典的查询以及注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1740378828520">
+    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1740379175599">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1740378828520" />
+    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1740379175599" />
     <state x="93" y="93" width="1413" height="765" key="DiffContextDialog" timestamp="1740377619860">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
@@ -425,10 +432,10 @@
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="302" y="118" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1740377875223" />
-    <state x="393" y="209" key="Vcs.Push.Dialog.v2" timestamp="1740378830665">
+    <state x="393" y="209" key="Vcs.Push.Dialog.v2" timestamp="1740379178113">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="393" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1740378830665" />
+    <state x="393" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1740379178113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
