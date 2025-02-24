@@ -14,4 +14,5 @@ if __name__ == '__main__':
     print('test,success')
     print('可能会pull失败？')
     print('选择第一个')
+    print('pull接成功了?')
     #hahahha
