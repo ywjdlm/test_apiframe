@@ -34,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspace" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718328150850</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="优化嵌套字典的查询以及注释">
+      <created>1732260265948</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1732260265948</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -353,6 +360,13 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_TABS">
@@ -381,14 +395,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化嵌套字典的查询以及注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1718328149563">
+    <state x="462" y="69" key="CommitChangelistDialog2" timestamp="1732260264615">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1718328149563" />
-    <state x="596" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1718328081160">
+    <state x="462" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1732260264615" />
+    <state x="93" y="93" width="1413" height="765" key="DiffContextDialog" timestamp="1740377619860">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="596" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.952@0.0.1600.952" timestamp="1718328081160" />
+    <state x="93" y="93" width="1413" height="765" key="DiffContextDialog/0.0.1600.952@0.0.1600.952" timestamp="1740377619860" />
+    <state x="582" y="232" key="FileChooserDialogImpl" timestamp="1740377837158">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="582" y="232" key="FileChooserDialogImpl/0.0.1600.952@0.0.1600.952" timestamp="1740377837158" />
+    <state x="302" y="118" key="SettingsEditor" timestamp="1740377875223">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="302" y="118" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1740377875223" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
